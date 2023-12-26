@@ -52,7 +52,7 @@
       </template>
       <template #content>
         <view class="u-main-color text-28rpx mx-32rpx mt-50rpx">
-          您的队伍已提交，请耐心等待审核结果，您可以关注【立方竞技】公众号接收审核通知，或直接在【报名记录】中查看审核结果。
+          您的队伍已提交，请耐心等待审核结果，您可以关注【竞技】公众号接收审核通知，或直接在【报名记录】中查看审核结果。
         </view>
       </template>
     </AuModal>

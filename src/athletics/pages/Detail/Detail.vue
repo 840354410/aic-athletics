@@ -128,7 +128,7 @@
 
     <AuPopup v-model:show="showMpQrcodePopup">
       <view class="p-32rpx flex-1 flex-xy-center flex-col u-main-color">
-        <view class="t-32rpx mb-12rpx">报名前请关注 [立方竞技] 公众号</view>
+        <view class="t-32rpx mb-12rpx">报名前请关注 [竞技] 公众号</view>
         <view class="t-32rpx mb-12rpx">获得赛事报名消息提醒</view>
         <image class="w-400rpx mb-24rpx" :src="mpQrcode" mode="widthFix" />
         <view class="u-tips-color t-28rpx">长按二维码识别</view>

@@ -12,14 +12,14 @@
     {
       "path": "pages/Loading/Loading",
       "style": {
-        "navigationBarTitleText": "立方竞技系统"
+        "navigationBarTitleText": "竞技系统"
       },
       "name": "Loading"
     },
     {
       "path": "pages/Login/Login",
       "style": {
-        "navigationBarTitleText": "立方竞技系统"
+        "navigationBarTitleText": "竞技系统"
       },
       "name": "Login"
     },
