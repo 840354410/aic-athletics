@@ -1,0 +1,55 @@
+$u-primary: #40acff;
+$u-primary-dark: #398ade;
+$u-primary-disabled: #9acafc;
+$u-primary-light: #e7f5ff;
+
+$u-white: #fff;
+
+$u-warning: #ff9100;
+$u-warning-dark: #f1a532;
+$u-warning-disabled: #f9d39b;
+$u-warning-light: #fff2d4;
+
+$u-success: #0dbf19;
+$u-success-dark: #53c21d;
+$u-success-disabled: #a9e08f;
+$u-success-light: #f5fff0;
+
+$u-error: #f30f0f;
+$u-error-dark: #e45656;
+$u-error-disabled: #f7b2b2;
+$u-error-light: #fef0f0;
+
+$u-info: #909399;
+$u-info-dark: #767a82;
+$u-info-disabled: #c4c6c9;
+$u-info-light: #f4f4f5;
+
+/* 变量的定义，该部分uview-plus已全局引入，无需您编写 */
+$u-main-color: #2d2d2d;
+$u-content-color: #2d2d2d;
+$u-tips-color: #9ba2aa;
+$u-light-color: #c0c4cc;
+$u-border-color: #e7e9ec;
+$u-bg-color: #f3f4f6;
+$u-disabled-color: #c8c9cc;
+
+// 上传
+$u-upload-deletable-bgColor: #e45656;
+// 选择框
+$u-select-disbaled-background-color: #f8f8f8;
+// 空数据
+$u-empty-text-font-size: 28rpx;
+// 复选框
+$u-checkbox-icon-wrap-width: 32rpx;
+$u-checkbox-icon-wrap-height: 32rpx;
+// 单选框
+$u-radio-text-font-size: 28rpx;
+$u-radio-icon-wrap-width: 32rpx;
+$u-radio-icon-wrap-height: 32rpx;
+
+$page-bg-color: #f3f5ff;
+
+page {
+  --u-checkbox-text-font-size: 28rpx;
+}

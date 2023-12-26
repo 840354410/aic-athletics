@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4235687 */
+  src: url('iconfont.woff2?t=1697711052593') format('woff2'),
+       url('iconfont.woff?t=1697711052593') format('woff'),
+       url('iconfont.ttf?t=1697711052593') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tuichu:before {
+  content: "\e643";
+}
+
+.icon-upload_a_picture:before {
+  content: "\e679";
+}
+
+.icon-position-mark:before {
+  content: "\e60b";
+}
+
+.icon-yiquxiao1:before {
+  content: "\e608";
+}
+
+.icon-baomingchenggong:before {
+  content: "\e607";
+}
+
+.icon-nav_icon_avatar_nor:before {
+  content: "\e605";
+}
+
+.icon-roundrightfill:before {
+  content: "\e65a";
+}
+
+.icon-right:before {
+  content: "\e682";
+}
+
+.icon-close:before {
+  content: "\e604";
+}
+
+.icon-close-circle-fill:before {
+  content: "\e844";
+}
+
+.icon-phone:before {
+  content: "\e6c2";
+}
+
+.icon-person:before {
+  content: "\e603";
+}
+
+.icon-a-zu781:before {
+  content: "\e600";
+}
+
+.icon-a-zu782:before {
+  content: "\e601";
+}
+
+.icon-a-zu784:before {
+  content: "\e602";
+}
+
+.icon-warn:before {
+  content: "\e670";
+}
+

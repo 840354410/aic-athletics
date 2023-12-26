@@ -1,0 +1,26 @@
+// 为什么不直接引入通过@import "uview-plus/index.scss";直接引入，原因如下
+// uview-plus由社区在官方uview2.0源码上二次开发，以此引入了一个flex文件，这个文件写得有点拉跨，不想用
+// 引入公共基础类
+@import 'uview-plus/libs/css/common.scss';
+// @import 'uview-plus/libs/css/color.scss';
+@import '../color.scss';
+
+// 非nvue的样式
+/* #ifndef APP-NVUE */
+@import 'uview-plus/libs/css/vue.scss';
+/* #endif */
+
+// nvue的特有样式
+/* #ifdef APP-NVUE */
+@import 'uview-plus/libs/css/nvue.scss';
+/* #endif */
+
+// 小程序特有的样式
+/* #ifdef MP */
+@import 'uview-plus/libs/css/mp.scss';
+/* #endif */
+
+// H5特有的样式
+/* #ifdef H5 */
+@import 'uview-plus/libs/css/h5.scss';
+/* #endif */

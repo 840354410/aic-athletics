@@ -1,0 +1,162 @@
+page {
+  --u-cell-padding: 10px 15px;
+  --u-tips-color: #9ba2aa;
+}
+.u-divider {
+  width: 100%;
+}
+
+.u-tabs__wrapper__nav__item {
+  z-index: 1;
+}
+
+.u-tabs__wrapper__nav__line {
+  z-index: 0;
+}
+
+// 表单form
+.u-form-item__body__left__content__label {
+  color: var(--u-tips-color) !important;
+}
+.text-28rpx .u-form-item__body__left__content__label {
+  font-size: 28rpx !important;
+}
+.u-form-item__body__left__content__required {
+  top: 0 !important;
+}
+.u-form-item__body__left {
+  flex: none;
+}
+.u-form-item__body__right__content__slot {
+  width: 0;
+}
+.au-form-text-right .u-form-item__body__right__message {
+  text-align: right;
+}
+.u-form-item__body__right {
+  padding-left: 16rpx;
+}
+
+// 按钮
+.u-button {
+  white-space: nowrap;
+}
+.u-button.u-reset-button.u-button--mini,
+.u-button.u-reset-button.u-button--small,
+.u-button.u-reset-button.u-button--middle,
+.u-button.u-reset-button.u-button--normal {
+  font-size: 28rpx;
+}
+.u-button.u-button--gray-cancel.u-button--disabled .u-button.u-button--gray-disabled.u-button--disabled {
+  opacity: 1;
+}
+.u-button--white-unactive {
+  background: #fff;
+  color: $u-main-color;
+}
+.u-button--gray-disabled {
+  background: #a7a7a7;
+  color: #fff;
+}
+.u-button--gray-cancel {
+  background: #c2c2c2;
+  color: #fff;
+}
+.u-button--gray-unactive {
+  background: #efefef;
+  color: #707070;
+}
+.u-button--white-unactive {
+  background: #fff;
+  color: $u-main-color;
+}
+.u-button--gray-cancel {
+  background: #c2c2c2;
+  color: #fff;
+}
+.u-button--white-light {
+  background: #efefef;
+  color: #707070;
+  background: rgba(255, 255, 255, 0.3);
+  border: 2rpx solid #ffffff;
+  color: #fff;
+}
+.u-button--warning-tag {
+  background: #ffeacf;
+  color: $u-warning;
+}
+
+// 图片上传
+.au-upload {
+  width: 100%;
+  display: flex;
+  position: relative;
+  view.u-upload {
+    flex: none;
+    max-width: 100%;
+  }
+  .u-upload__wrap__preview:last-child {
+    margin-right: 0;
+  }
+}
+.au-upload--circle .u-upload__wrap__preview__image {
+  border-radius: 50%;
+}
+.u-upload__success {
+  display: none !important;
+}
+.u-upload__deletable__icon .u-icon__icon {
+  font-size: 24rpx !important;
+  margin-top: 2px;
+}
+
+.u-upload__wrap > view {
+  display: block;
+  width: 100%;
+}
+.au-upload--replaceable {
+  .u-upload__wrap__preview {
+    margin-bottom: 0;
+    font-size: 0;
+  }
+  .u-upload__deletable {
+    display: none !important;
+  }
+}
+
+// 空数据
+.u-empty__text {
+  font-size: $u-empty-text-font-size !important;
+}
+
+// 复选框
+.u-checkbox text {
+  font-size: var(--u-checkbox-text-font-size) !important;
+}
+.u-checkbox .u-checkbox__icon-wrap {
+  width: $u-checkbox-icon-wrap-width !important;
+  height: $u-checkbox-icon-wrap-height !important;
+}
+
+// 单选框
+.u-radio text {
+  font-size: $u-radio-text-font-size !important;
+}
+.u-radio .u-radio__icon-wrap {
+  width: $u-radio-icon-wrap-width !important;
+  height: $u-radio-icon-wrap-height !important;
+}
+
+// tabs标签
+
+// uni.showModal
+uni-modal,
+.uni-mask,
+.uni-modal {
+  z-index: 10100;
+}
+
+// 操作弹出框
+.u-action-sheet__item-wrap {
+  padding: 32rpx 0;
+}

@@ -1,0 +1,210 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue",
+      "^u--(.*)": "uview-plus/components/u-$1/u-$1.vue",
+      "^up-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+      "^u-([^-].*)": "uview-plus/components/u-$1/u-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/Loading/Loading",
+      "style": {
+        "navigationBarTitleText": "立方竞技系统"
+      },
+      "name": "Loading"
+    },
+    {
+      "path": "pages/Login/Login",
+      "style": {
+        "navigationBarTitleText": "立方竞技系统"
+      },
+      "name": "Login"
+    },
+    {
+      "path": "pages/Middle/Middle",
+      "style": {
+        "navigationBarTitleText": "加载中"
+      },
+      "name": "Middle"
+    },
+    {
+      "path": "pages/UserAgreement/UserAgreement",
+      "style": {
+        "navigationBarTitleText": ""
+      },
+      "name": "UserAgreement"
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "athletics/pages",
+      "pages": [
+        {
+          "path": "Detail/Detail",
+          "style": {
+            "navigationBarTitleText": "赛事报名"
+          },
+          "name": "Detail"
+        },
+        {
+          "path": "JoinTeam/JoinTeam",
+          "style": {
+            "navigationBarTitleText": "加入队伍报名"
+          },
+          "name": "JoinTeam"
+        },
+        {
+          "path": "Signup/Signup",
+          "style": {
+            "navigationBarTitleText": "报名"
+          },
+          "name": "Signup"
+        },
+        {
+          "path": "SportIndex/SportIndex",
+          "style": {
+            "navigationBarTitleText": "赛事列表"
+          },
+          "name": "SportIndex"
+        },
+        {
+          "path": "CreateTeam/CreateTeam",
+          "style": {
+            "navigationBarTitleText": "创建队伍"
+          },
+          "name": "CreateTeam"
+        },
+        {
+          "path": "LeaderOrder/LeaderOrder",
+          "style": {
+            "navigationBarTitleText": "报名记录"
+          },
+          "name": "LeaderOrder"
+        },
+        {
+          "path": "MemberOrder/MemberOrder",
+          "style": {
+            "navigationBarTitleText": "报名记录"
+          },
+          "name": "MemberOrder"
+        },
+        {
+          "path": "TeamIndex/TeamIndex",
+          "style": {
+            "navigationBarTitleText": "队伍报名"
+          },
+          "name": "TeamIndex"
+        },
+        {
+          "path": "UpdateTeam/UpdateTeam",
+          "style": {
+            "navigationBarTitleText": "编辑队伍"
+          },
+          "name": "UpdateTeam"
+        },
+        {
+          "path": "InviteWorker/InviteWorker",
+          "style": {
+            "navigationBarTitleText": "加入队伍"
+          },
+          "name": "InviteWorker"
+        },
+        {
+          "path": "InviteMemberMiddle/InviteMemberMiddle",
+          "style": {
+            "navigationBarTitleText": "加入队伍"
+          },
+          "name": "InviteMemberMiddle"
+        },
+        {
+          "path": "PayOrder/PayOrder",
+          "style": {
+            "navigationBarTitleText": "确认订单"
+          },
+          "name": "PayOrder"
+        },
+        {
+          "path": "UpdateSignup/UpdateSignup",
+          "style": {
+            "navigationBarTitleText": "管理报名"
+          },
+          "name": "UpdateSignup"
+        },
+        {
+          "path": "CheckSignup/CheckSignup",
+          "style": {
+            "navigationBarTitleText": "审核报名"
+          },
+          "name": "CheckSignup"
+        },
+        {
+          "path": "SelectTeam/SelectTeam",
+          "style": {
+            "navigationBarTitleText": "选择队伍"
+          },
+          "name": "SelectTeam"
+        },
+        {
+          "path": "PersonSignup/PersonSignup",
+          "style": {
+            "navigationBarTitleText": "报名"
+          },
+          "name": "PersonSignup"
+        },
+        {
+          "path": "PersonPayOrder/PersonPayOrder",
+          "style": {
+            "navigationBarTitleText": "确认订单"
+          },
+          "name": "PersonPayOrder"
+        },
+        {
+          "path": "PersonOrder/PersonOrder",
+          "style": {
+            "navigationBarTitleText": "报名记录"
+          },
+          "name": "PersonOrder"
+        },
+        {
+          "path": "PersonUpdateSignup/PersonUpdateSignup",
+          "style": {
+            "navigationBarTitleText": "编辑报名信息"
+          },
+          "name": "PersonUpdateSignup"
+        },
+        {
+          "path": "CreateTeamTemp/CreateTeamTemp",
+          "style": {
+            "navigationBarTitleText": ""
+          },
+          "name": "CreateTeamTemp"
+        },
+        {
+          "path": "Agreement/Agreement",
+          "style": {
+            "navigationBarTitleText": ""
+          },
+          "name": "Agreement"
+        },
+        {
+          "path": "SignupRecord/SignupRecord",
+          "style": {
+            "navigationBarTitleText": "我的报名"
+          },
+          "name": "SignupRecord"
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFF",
+    "backgroundColor": "#fff",
+    "h5": {
+      "titleNView": false
+    }
+  }
+}

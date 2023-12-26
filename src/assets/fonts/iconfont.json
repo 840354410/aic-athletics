@@ -1,0 +1,121 @@
+{
+  "id": "4235687",
+  "name": "立方竞技",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2325938",
+      "name": "退出",
+      "font_class": "tuichu",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "4922629",
+      "name": "上传图片",
+      "font_class": "upload_a_picture",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "11200927",
+      "name": "位置标记",
+      "font_class": "position-mark",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "37320048",
+      "name": "已取消",
+      "font_class": "yiquxiao1",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "37317104",
+      "name": "报名成功 ",
+      "font_class": "baomingchenggong",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "18490056",
+      "name": "nav_icon_avatar_nor",
+      "font_class": "nav_icon_avatar_nor",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "29945",
+      "name": "round_right_fill",
+      "font_class": "roundrightfill",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "16615911",
+      "name": "right",
+      "font_class": "right",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "522274",
+      "name": "close",
+      "font_class": "close",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "4936482",
+      "name": "close-circle-fill",
+      "font_class": "close-circle-fill",
+      "unicode": "e844",
+      "unicode_decimal": 59460
+    },
+    {
+      "icon_id": "1228433",
+      "name": "phone",
+      "font_class": "phone",
+      "unicode": "e6c2",
+      "unicode_decimal": 59074
+    },
+    {
+      "icon_id": "9567590",
+      "name": "person",
+      "font_class": "person",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "37233691",
+      "name": "781",
+      "font_class": "a-zu781",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "37233692",
+      "name": "组 782",
+      "font_class": "a-zu782",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "37233690",
+      "name": "组 784",
+      "font_class": "a-zu784",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "16550073",
+      "name": "warn",
+      "font_class": "warn",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    }
+  ]
+}
