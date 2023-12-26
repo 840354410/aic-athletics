@@ -27,3 +27,6 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+
+src/utils/config.ts
+vite.config.ts
